@@ -10,7 +10,7 @@ import {Activity} from "../model/activity";
 export class ActivityService {
 
 
-  private host :string = environment.baseUrl;
+  private host :string = environment.apiUrl;
 
   constructor(private http : HttpClient) { }
 
