@@ -19,6 +19,7 @@ import {ToastrModule} from "ngx-toastr";
       }
     ),
   ],
+  exports: [ToastrModule]
 
 })
 export class NotificationModule {
